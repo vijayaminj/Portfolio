@@ -30,19 +30,36 @@ h1{
 }
 .listPro:hover{
     box-shadow: 2px 2px 5px black;
-
 }
 video{
     width: 18rem;
     height: 10rem;
 }
-
-h2{
+.listPro h2{
     color: brown;
     margin-bottom: 5px;
 }
-p{
-    
+.listPro p{   
     margin-bottom: 5px;
+}
+.edu,.experience{
+    padding: 2rem;
+}
+.edu h3,.experience h3{
+    width: 15rem;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+.edu li,.experience li{
+    list-style: inside;
+    color:blueviolet
 
+}
+.experience h4{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+.edu p,.experience p{
+    padding-left: 1.2rem;
 }

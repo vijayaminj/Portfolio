@@ -8,7 +8,7 @@
     font-family: 'Poppins', sans-serif;;
 }
 body{
-    background-color:#f72ef7; 
+    background-color:lightcoral; 
 }
 #container{
     width: 80%;
@@ -133,6 +133,9 @@ button i{
     padding-right: 10px;
 
 }
+.icon{
+    /* border: 1px solid black;   */
+}
 .icon i{
     font-size: 30px;
     padding: 5px;
@@ -165,6 +168,7 @@ button i{
     }       
     .info{
         width: 40%;
+        height: 45vh;
     }
    
 }
